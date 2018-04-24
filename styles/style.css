@@ -1,0 +1,27 @@
+html, body {
+  height: calc(100% - 10px); }
+
+body {
+  display: none; }
+
+.container-fluid {
+  height: 100%; }
+  .container-fluid .row {
+    margin: 5px;
+    border: 1px solid gray; }
+  .container-fluid #map {
+    height: calc(100% - 130px); }
+  .container-fluid .main_row, .container-fluid .col-md-8, .container-fluid .col-md-4 {
+    height: 100%; }
+  .container-fluid .pd-20px {
+    padding: 20px; }
+  .container-fluid .names {
+    width: 100%;
+    margin: 15px;
+    padding: 0;
+    border: 1px solid gray;
+    border-radius: 5px; }
+    .container-fluid .names svg {
+      margin: 0 20px; }
+
+/*# sourceMappingURL=style.css.map */

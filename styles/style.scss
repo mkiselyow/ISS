@@ -1,0 +1,32 @@
+html, body {
+  height: calc(100% - 10px);
+}
+body {
+  display: none;
+}
+.container-fluid  {
+  height: 100%;
+  .row {
+    margin: 5px;
+    border: 1px solid gray;
+  }
+  #map {
+    height: calc(100% - 130px);
+  }
+  .main_row, .col-md-8, .col-md-4 {
+    height: 100%;
+  }
+  .pd-20px {
+    padding: 20px;
+  }
+  .names {
+    width: 100%;
+    margin: 15px;
+    padding: 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    svg {
+      margin: 0 20px;
+    }
+  }
+}
